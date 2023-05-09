@@ -29,11 +29,11 @@ function play(){
         console.log(randomDown);
 
         if(playerVal == 0){
-            res.innerHTML = "--Draw--";
+            res.innerHTML = "DRAW";
         }if(playerVal == 1){
-            res.innerHTML = "--You Win--";
+            res.innerHTML = "YOU WIN";
         }if(playerVal == 2){
-            res.innerHTML = "--You Lose--";
+            res.innerHTML = "YOU LOSE";
         }
     }
 
