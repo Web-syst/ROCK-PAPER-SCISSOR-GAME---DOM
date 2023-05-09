@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors!!!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="player1">
+        <h3><b>Player</b></h3>
+        <div class="showimg">
+          <img src="paper.png" id="imgshow" />
+        </div>
+        <p id="txtresult"></p>
+        <div class="buttons">
+          <button type="button" id="selector" onclick="pkPapel()">Papel</button>
+          <button type="button" id="selector" onclick="pkGunting()">
+            Gunting
+          </button>
+          <button type="button" id="selector" onclick="pkBato()">Bato</button>
+          <br />
+          <button type="button" id="btn" onclick="play()">
+            Bato bato pick
+          </button>
+        </div>
+      </div>
+
+      <h2 id="Result" class="Result">Result</h2>
+
+      <div class="player2">
+        <h3><b>Computer</b></h3>
+        <div class="showimg">
+          <img src="paper.png" id="imgshow2" />
+        </div>
+        <p id="txtresult"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
