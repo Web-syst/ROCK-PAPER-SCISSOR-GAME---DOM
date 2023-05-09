@@ -12,31 +12,37 @@
       <div class="player1">
         <h3><b>Player</b></h3>
         <div class="showimg">
-          <img src="paper.png" id="imgshow" />
+          <img src="papel.png" id="imgshow" />
         </div>
         <p id="txtresult"></p>
         <div class="buttons">
-          <button type="button" id="selector" onclick="pkPapel()">Papel</button>
+          <button type="button" id="selector" onclick="pkPapel()"> <b>PAPEL</b></button>
           <button type="button" id="selector" onclick="pkGunting()">
-            Gunting
+           <b>GUNTING</b> 
           </button>
-          <button type="button" id="selector" onclick="pkBato()">Bato</button>
+          <button type="button" id="selector" onclick="pkBato()"> <b>BATO</b></button>
           <br />
           <button type="button" id="btn" onclick="play()">
-            Bato bato pick
+           <b>BATO, BATO, PICK!</b>
           </button>
         </div>
       </div>
 
-      <h2 id="Result" class="Result">Result</h2>
+      <h2 id="Result" class="Result">GAME BEGINS!</h2>
 
       <div class="player2">
         <h3><b>Computer</b></h3>
         <div class="showimg">
-          <img src="paper.png" id="imgshow2" />
+          <img src="papel.png" id="imgshow2" />
         </div>
         <p id="txtresult"></p>
       </div>
+    </div>
+
+    <div class="record">
+      <p> <b>Wins: </b> <span id="winCount">0</span></p>
+      <p> <b>Losses: </b> <span id="lossCount">0</span></p>
+      <p> <b>Draws: </b> <span id="drawCount">0</span></p>
     </div>
 
     <script src="script.js"></script>
